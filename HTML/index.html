@@ -1,0 +1,113 @@
+<!doctype html>
+<!--Comments go below the doctype to not break older browsers-->
+<html>
+	<head>
+		<meta charset = "utf-8" />
+		<!--Search Engine optimization-->
+		<meta name="decsription" content= "Our very first HTML5 document. How Exciting" />
+		<meta name="keywords" content="html5, mobile development, Full Sail University" />
+		<!--Allows the web crawlers to index the page on a search engine follow links -->
+		<meta name="robots" content="index, follow" />
+		<!--If not-->
+		<meta name="robots" content="noindex, nofollow" />
+		
+		<!--Allow content to view correctly on iPhone browsers-->
+		<!--Viewport tells the browser to allow the user to scale the content and how wide it should assume 
+		it's content will be displayed (i.e. a full 960 px or the width of the device )-->
+		<meta name="viewport" content="user scalable=no, width=device-width" />
+		<!--This allows devleopers to specify which screen resolution the page has been developed for-->
+		<meta name="viewport" content="target-densitydpi=device-dpi" />
+		<!--this allows viewing on feature phones-->
+		<meta name="handheldFriendly" content="True" />
+		<!--Mobile Optimized  was for IE browsers. The old school way to set width-->
+		<meta name="MobileOptimized" content="320" /> 
+		
+
+		<!--Document Title-->
+		<title>My First HTML5 Document</title>
+		<!--Import CSS Style-->
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		
+		<!--Call Javascript file-->
+		<script src="js/main.js" type="text/javascript"></script>
+	
+	</head>
+	
+	<body>
+		<form action="#" method="post">
+			<fieldset>
+				<legend>Information</legend>
+				<ul>
+					<li><label for="fname">First Name</label><input type="text" id="fname" /></li>
+				</ul>
+			</fieldset>
+	
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul>
+<li>
+<label for="register-name">My name is:</label>
+<input type="text" id="register-name" name="name"
+➥required aria-required="true">
+</li>
+<li>
+<label for="email">My email address is:</label>
+<input type="text" id="email" name="email"
+➥required aria-required="true">
+</li>
+<li>
+<label for="url">My website is located at:</label>
+<input type="text" id="url" name="url">
+</li>
+<li>
+<label for="password">I would like my password to be:</label>
+<p>(at least 6 characters, no spaces)</p>
+<input type="password" id="password" name="password"
+➥required aria-required="true">
+</li>
+<li>
+<label for="rating">On a scale of 1 to 10, my knowledge of
+➥HTML5 is:</label>
+<input type="text" name="rating" type="range">
+</li>
+<li>
+<label for="startdate">Please start my subscription on:
+➥</label>
+<input type="text" id="startdate" name="startdate"
+➥required aria-required="true">
+</li>
+<li>
+<label for="quantity">I would like to receive <input
+➥type="text" name="quantity" id="quantity"> copies of <cite>
+➥The HTML5 Herald</cite></label>
+</li>
+HTML5 Forms 61
+<li>
+<label for="upsell">Also sign me up for <cite>The CSS3
+➥Chronicle</cite></label>
+<input type="checkbox" id="upsell" name="upsell">
+</li>
+<li>
+<input type="submit" id="register-submit" value="Send Post
+➥Haste">
+</li>
+</ul>
